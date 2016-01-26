@@ -15,6 +15,7 @@
 		9303C1101C56E53E00560FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9303C10E1C56E53E00560FF6 /* LaunchScreen.storyboard */; };
 		9303C11B1C56E53E00560FF6 /* ScrollViewImageGalleries2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9303C11A1C56E53E00560FF6 /* ScrollViewImageGalleries2Tests.m */; };
 		9303C1261C56E53E00560FF6 /* ScrollViewImageGalleries2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9303C1251C56E53E00560FF6 /* ScrollViewImageGalleries2UITests.m */; };
+		9303C1351C56E69200560FF6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9303C1341C56E69200560FF6 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9303C1211C56E53E00560FF6 /* ScrollViewImageGalleries2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewImageGalleries2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9303C1251C56E53E00560FF6 /* ScrollViewImageGalleries2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewImageGalleries2UITests.m; sourceTree = "<group>"; };
 		9303C1271C56E53E00560FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9303C1331C56E69200560FF6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9303C1341C56E69200560FF6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9303C1041C56E53E00560FF6 /* AppDelegate.m */,
 				9303C1061C56E53E00560FF6 /* ViewController.h */,
 				9303C1071C56E53E00560FF6 /* ViewController.m */,
+				9303C1331C56E69200560FF6 /* DetailViewController.h */,
+				9303C1341C56E69200560FF6 /* DetailViewController.m */,
 				9303C1091C56E53E00560FF6 /* Main.storyboard */,
 				9303C10C1C56E53E00560FF6 /* Assets.xcassets */,
 				9303C10E1C56E53E00560FF6 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				9303C1081C56E53E00560FF6 /* ViewController.m in Sources */,
 				9303C1051C56E53E00560FF6 /* AppDelegate.m in Sources */,
 				9303C1021C56E53E00560FF6 /* main.m in Sources */,
+				9303C1351C56E69200560FF6 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

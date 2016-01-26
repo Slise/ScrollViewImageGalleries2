@@ -14,9 +14,16 @@
 
 @implementation DetailViewController
 
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    return self.imageView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.detailImageView.scrollEnabled = YES;
+    self.detailImageView.minimumZoomScale =1.0;
+    self.detailImageView.maximumZoomScale=4.0;
     self.detailImageView.delegate = self;
     self.imageView  = [[UIImageView alloc] initWithImage:self.detailImage];
     self.imageView.translatesAutoresizingMaskIntoConstraints = NO;
@@ -58,23 +65,9 @@
 
 }
 
-- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
-    return self.imageView;
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
